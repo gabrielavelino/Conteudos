@@ -2,7 +2,7 @@ from tkinter import *
 from PIL import Image
 def game():  
     root = Tk()
-    root.title('TutorChess')
+    root.title('Gdelivery')
     root.geometry('800x600')
     root.config(background = 'black')
     root.resizable(width = False, height = False)
@@ -14,7 +14,7 @@ def game():
     canvas.pack()
    
     #TABULEIRO XADREZ
-    imagemTabuleiro = PhotoImage(file = "board.png")
+    imagemTabuleiro = PhotoImage(file = "mapaBrasilia.png")
     canvas.create_image(400,300,image=imagemTabuleiro)
     
     #MOVIMENTOS DAS PEÇAS
